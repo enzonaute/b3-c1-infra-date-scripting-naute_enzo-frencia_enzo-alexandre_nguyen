@@ -1,0 +1,53 @@
+brian = "hello life!"
+
+
+caesar = "Graham"
+praline = "John"
+viking = "Teresa"
+
+
+
+'This isn\'t flying, this is falling with style!'
+
+
+fifth_letter = "MONTY"[4]
+
+
+parrot = "Norwegian Blue"
+print len(parrot)
+
+
+parrot = "norwegian blue"
+parrot.lower()
+print parrot
+
+
+print parrot.upper()
+
+pi = 3.14
+print str(pi)
+
+
+print len(ministry)
+print ministry.upper()
+
+
+print "Monty Python"
+
+
+the_machine_goes = "Ping!"
+print the_machine_goes
+
+print "Spam"+" and "+"eggs"
+
+print "The value of pi is around " + str(3.14)
+
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
+my_string = "non"
+print len(my_string)
+print my_string.upper()
+
+
