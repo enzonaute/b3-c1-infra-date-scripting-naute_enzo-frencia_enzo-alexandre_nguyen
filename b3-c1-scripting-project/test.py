@@ -1,14 +1,4 @@
-# import csv
-
-# with open('conso-annuelles_v1.csv', encoding="latin-1") as csvfile:
-#     csvreader = csv.reader(csvfile)
-
-#     # data=list(csvreader)
-
-# csvreader=[x for x in csvreader if '' not in x and '0' not in x]
-
-# csvfile.write(csvreader) 
-
+#!/usr/bin/python3
 
 import csv
 import re
@@ -37,3 +27,15 @@ print(result)
 # import pandas as pd         
 
 # df = pd.read_csv("conso-annuelles_v1.csv", on_bad_lines='skip', encoding="latin-1", sep=',').dropna()
+
+
+#import csv
+
+# with open('conso-annuelles_v1.csv', encoding="latin-1") as csvfile:
+#     csvreader = csv.reader(csvfile)
+
+#     # data=list(csvreader)
+
+# csvreader=[x for x in csvreader if '' not in x and '0' not in x]
+
+# csvfile.write(csvreader) 
